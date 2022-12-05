@@ -1,0 +1,58 @@
+.gameCard {
+    width: 350px;
+    height: 300px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: .1s;
+}
+
+.fakeGameCard {
+    width: 350px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: .1s;
+}
+
+.image {
+    width: 350px;
+    height: 163px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 2px;
+}
+
+.image:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+h3 {
+    color: #242424;
+    margin: 0px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+    margin: 0px
+}

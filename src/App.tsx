@@ -1,10 +1,16 @@
+import { Container } from '@mui/material';
 import React from 'react';
+import Games from './components/Games';
+import Logo from './components/Logo';
+import Search from './components/Search';
 
 function App() {
   return (
-    <div>
-      Under Construction
-    </div>
+      <Container style={{maxWidth: "1300px"}}>
+        <Logo />
+        <Search />
+        <Games />
+      </Container>
   );
 }
 
